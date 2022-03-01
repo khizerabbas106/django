@@ -1,0 +1,238 @@
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Khizer Ice Creams</title>
+  </head>
+  <body><nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin: 0px; padding: 10px;">
+    <div class="container-fluid" style="position: absolute; text-align: right;">
+      <a class="navbar-brand" href="/">Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://khizerr.shinyapps.io/1stGLOF/?_ga=2.105292298.880669912.1644905114-1921703305.1644242501">Glacial Lakes in Hunza River Basin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon.png">
+    <link href="/static/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/assets/css/style.css" rel="stylesheet">
+    <link href="/static/assets/css/responsive.css" rel="stylesheet">
+    <div id="hero" class="hero overlay" style="margin: 0px;">
+        <div class="hero-content">
+            <div class="hero-text">
+                <!-- ADD YOUR TITLE CORRECTLY....... -->
+                <h2 style="color: #2ECC71   ;"><strong>
+                    <h1 class="display-4 fw-bold">Welcome {{request.user}}</h1>
+                    Modelling GLOF Susceptibility and assessment of potential Lake outburst
+                    using
+                    Machine Learning</strong></h2>
+                <!-- <h3>Modelling GLOF Susceptibility and assessment of potential Lake outburst using Machine Learning</h3> -->
+                <!-- <h1>Modelling GLOF Susceptibility and assessment of potential Lake outburst using Machine Learning</h1> -->
+                <p style="color: #387ce8;"><strong></strong></p>
+                <script>var myDiv = document.getElementById("myDiv");
+                myDiv.scrolltop = myDiv.scrollHeight;
+                </script>
+            </div><!-- /.hero-text -->
+        </div><!-- /.hero-content -->
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section class="site-section section-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2 id="page-bottom" ><strong>What is GLOF?</strong></h2>
+                        <p style="color: black;"><strong>“Glacial Lake Outburst Flood” (GLOF) is a phrase used to describe a sudden release of a
+                            significant amount of water retained in a glacial lake.
+                            GLOFs have the potential to cause significant amount of damage and destruction to lives,
+                            infrastructure, and environment in nearby regions.</strong></p>
+                    </div>
+                    <div class="col-sm-7 hidden-xs">
+                        <img src="/static/assets/img/glof.gif" alt="" style="height: 300px;">
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-features -->
+
+        <section class="site-section section-services gray-bg text-center">
+            <div class="container">
+                <h2 class="heading-separator"><strong>Our Objectives</strong></h2>
+                <p class="subheading-text">A simple but an effective platform for hydrologic study and research on Glacier Lakes.</p>
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="/static/assets/img/lake.png" alt="" style="height: 80px;">
+                            <h3 class="service-title">Susceptible Lakes</h3>
+                            <p class="service-info">To detect potentially susceptible lakes employing machine learning
+                                techniques models/algorithms</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="/static/assets/img/time.png" alt="" style="height: 80px;">
+                            <h3 class="service-title">Spatio-Temporal Change</h3>
+                            <p class="service-info">To identify spatio-temporal change detection of glacial lakes</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="/static/assets/img/tide.png" alt="" style="height: 80px;">
+                            <h3 class="service-title">FLood Extent</h3>
+                            <p class="service-info">To assess glacial flood extent for highly susceptible lakes</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="service">
+                            <img src="/static/assets/img/web.png" alt="" style="height: 80px;">
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-info">To develop web application for visualization of GLOF, flood extent,
+                                and deployment of model</p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-services -->
+
+        <section class="site-section section-portfolio">
+            <div class="dummy">
+                <div class="text-center">
+                    <h2 class="heading-separator">Our Work</h2>
+                    <p class="subheading-text">Our effort on this Project</p>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="/static/assets/img/change.png" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Change Detection</h4>
+                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="/static/assets/img/Machine.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Predictions using ML</h4>
+                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="/static/assets/img/flood.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Floods Simulation</h4>
+                            <a href="/home"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+                <div class="text-center">
+                    <h2 class="heading-separator">Our Work</h2>
+                    <p class="subheading-text">This is some of our work till date</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Portfolio item</h4>
+                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> -->
+        </section><!-- /.section-portfolio -->
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a class="site-title"><span>GLOF</span>Alert</a>
+                    <p>We're a team moving towards integrating GIS in different fields of Life.</p>
+                    <p>We are interested in your support to making this a much bigger platform.</p>
+                </div>
+                <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
+                    <h3>Keep in touch</h3>
+                    <ul class="list-unstyled contact-links">
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a
+                                href="mailto:khizerabbas106@gmail.com">khizerabbas106@gmail.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+923176561614">+923176561614
+                            </a></li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>IGIS, NUST
+                                Address: Scholars Ave, H-12, Islamabad, Islamabad Capital Territory,
+                                Pakistan
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <h3>Featured links</h3>
+                    <ul class="list-unstyled">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="blog.html">Machine Learning Model</a></li>
+                        <li><a href="/home">Floods of Lakes</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright" style="background-color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="social-links">
+
+                        </div><!-- /.social-links -->
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="text-right">
+                            <p>&copy; Khizer</p>
+                            <p>Incorporation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.copyright -->
+    </footer><!-- /#footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/static/assets/js/bootstrap.min.js"></script>
+    <script src="/static/assets/js/bootstrap-select.min.js"></script>
+    <script src="/static/assets/js/jquery.slicknav.min.js"></script>
+    <script src="/static/assets/js/jquery.countTo.min.js"></script>
+    <script src="/static/assets/js/jquery.shuffle.min.js"></script>
+    <script src="/static/assets/js/script.js"></script>
+
+</body>
+
+</html>

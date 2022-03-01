@@ -1,0 +1,21 @@
+#map {
+  width: 1135px;
+  height: 425px;
+  right: 1000px;
+  left: 0%;
+  padding: 20px;
+}
+body {
+  }
+  
+  h1 {
+  color: rgb(255,0,255);
+  margin-left: 0px;
+  font: 'Times New Roman';
+        font-size: 30px;
+  padding: 10px;
+  }
+  h4 {
+  margin-left: 0px;
+  
+  }

@@ -1,0 +1,18 @@
+.maindiv{
+    padding: 100px;
+    margin-bottom: 10000px;
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/12/18/50/mount-fitzroy-2225382_960_720.jpg);
+    box-shadow: 1px 2px 10px rgb(14, 12, 12);
+    animation: slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(https://cdn.pixabay.com/photo/2018/05/24/18/23/huayhuash-3427284_960_720.jpg);}
+    35%{background-image: url(https://cdn.pixabay.com/photo/2018/02/21/17/38/nature-3170996_960_720.jpg);}
+    75%{background-image: url(https://cdn.pixabay.com/photo/2021/02/10/22/23/lake-6003746_960_720.jpg);}
+}
